@@ -1,0 +1,90 @@
+<!Doctype html>
+<!--html opening-->
+<html>
+    <!--css connection-->
+    <link rel="stylesheet" href="C:\EE banking\css\Userlogin.css">
+    <!--connection closing-->
+       <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--javascript section-->
+         <script type="text/javascript" src="C:\EE banking\js\transaction1.js"></script>
+         </script>
+          <script>
+          function register()
+           {
+               alert("Processing");
+               window.open("userregistration.html");
+           }
+          </script>
+        <!--head cloising-->
+        </head>
+        <!--body section-->
+                <body>
+         <!--header section-->
+                  <header>
+                     <h1>EE BANKING</h1>
+              <!--header closing-->
+                  </header>
+              <!--navigation bar-->
+                     <nav>
+                       <a href="banking.html">Home</a>
+                       <a href="userregistration.html">Registration</a>
+                       <a href="userlogin.html">Login</a>
+              <!--nav close-->
+                     </nav>
+              <!--image section-->
+                        <img src="C:\EE banking\photos\money2.jpg"
+                             height="500px"
+                             width="1350px">
+                       <!--image closing-->
+                       <!--heading section-->
+                           <h2 Align="center">Login</h2>
+                           <br>
+                       <!--table section-->
+                           <table Align="center"
+                                  Bgcolor="white"
+                                  Width="30%"
+                                  Height="40%"
+                                  boder="1">
+                       <!--form section-->
+                            <form>
+                               <tr Align="center">
+                               <td Aligm="center">
+                               <br>
+                               <br>
+                               Ac.no:<input type="number" id="acno" name="acno"  required>
+                               <br>
+                               <br>
+                               </td>
+                               </tr>
+                               <tr Align="center">
+                               <td Align="center">
+                               Password:<input type="password" id="pwd" name="pwd" required>
+                               <br>
+                               <br>
+                               </td>
+                               </tr> 
+                               <br>
+                               <tr Align="center">
+                               <td Align="center">
+                               <button type="button" name="Login"  onclick="Bank.login()">Login</button>
+                               <br>
+                               <br>
+                               </td>
+                               </tr>
+                               <tr>
+                               <td Align="center">
+                               <input type="button" name="registration" value="New Account" onclick="register()">  
+                               </td>
+                               </tr>   
+                               <fon>
+                           <!--table closing-->
+                            </form>
+                           <!--form closing-->
+                            </table>
+                           <!--body closing-->
+                </body>
+<!--html closing-->
+</html>  

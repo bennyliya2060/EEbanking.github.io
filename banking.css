@@ -1,0 +1,61 @@
+/*--background image--*/
+body
+{
+    Background-image:url("C:\photos\money.jpg");
+}
+/*--heading section--*/
+h1
+{
+    color:blue;
+}
+/*--navigation bar--*/
+nav
+{
+  background-color: black;
+  color:white;
+  text-align: right;
+  padding: 10px;
+  word-spacing: 20px;
+}
+/*--nav links--*/
+a
+{
+      background-color: black;
+      color: white;
+      font-size: large;
+      text-align: right;
+      word-spacing: 5px;
+      text-decoration: none;
+}
+/*--background image--*/
+img
+{
+    width:100%;
+    height:auto;
+    z-index: -1;
+    color:black;
+}
+/*--paragraph--*/
+p
+{
+    color:black;
+    font-size: xx-large;
+    font-style: italic;
+}
+@media (max-width:600px){
+    img{
+        width:100%;
+    }
+    .nav-area{
+        float:none;
+        margin-top:0;
+    }
+    .nav-area li a{
+        padding:5px;
+        font-size:center;
+    }
+    .nav-area {
+        text-align:center;
+ }
+}
+

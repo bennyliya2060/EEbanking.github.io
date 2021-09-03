@@ -1,0 +1,131 @@
+<Doctype html>
+<html>
+  <link rel="stylesheet" href="C:\EE banking\css\Userregistration.css">
+<!--head section-->
+   <head>
+      <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Home page</title>
+         <script type="text/javascript">
+         function login()
+          {
+                 alert("successfully registerd");
+                 window.open("userlogin.html");
+          }
+          </script>
+   </head>
+<!--head close-->
+<!--body section-->
+<body>
+<!--header section-->
+   <header>
+      <h1>EE BANKING</h1>
+   </header>
+<!--navigation bar-->
+   <nav>
+   <a href="banking.html">Home</a>
+   <a href="Userregistration.html">Registration</a>
+   <a href="Userlogin.html">Login</a>
+   </nav>
+<!--nav close-->
+      <img src="C:\ee banking\photos\money.jpg">
+<!--heading section-->
+           <h2 Align="center">Registration Form</h2>
+<!--heading close-->
+<!--table section-->
+               <table Align="center"
+                      Bgcolor="white"
+                      Width="50%"
+                      Height="64%"
+                      boder="1">
+            <!--form opening-->
+                   <form method="post"  Action="details.html">
+                        <tr Align="center">
+                        <td Align="left"> 
+                        Name:<input type="text" required>
+                        <br>
+                        <br>
+                        </td>
+                        </tr>
+                        <tr Align="center">
+                        <td Align="left">
+                        Date of birth:<input type="date" required>
+                        </textarea>
+                        <br>
+                        <br>
+                        </td>
+                        </tr>
+                        <tr Align="center">
+                        <td Align="left">
+                        Adress:<textarea rows="5"
+                                         cols="20" required>
+                       </textarea>
+                       <br>
+                       <br>
+                       <tr Align="center">
+                       <td Align="left">
+                       Gender:<input type="radio" name="g1" value="male" required>male
+                              <input type="radio" name="g1" value="male" required>Female
+                       <br>
+                       <br>
+                       </td>
+                       </tr>
+                       <tr Align="center">
+                       <td Align="left">
+                       User name:<input type="text" required>
+                       <br>
+                       <br>
+                       </td>
+                       </tr>
+                       <tr Align="center">
+                       <td Align="left">
+                       Email id:<input type="text" required>
+                       <br>
+                       <br>
+                       </td>
+                       </tr>
+                       <tr Align="center">
+                       <td Align="left">
+                       IFSC code:<input type="number" required>
+                      <br>
+                      <br> 
+                      </td>
+                      </tr>
+                      <tr Align="center">
+                      <td Align="left">
+                      Phone no:<input type="text" required
+                                      min="1"
+                                      max="10">
+                      
+                      <br>
+                      <br>
+                      </td>
+                      </tr>
+                      <tr Align="center">
+                      <td Align="left">
+                      Acc.no:<input type="number" required>
+                      <br>
+                      <br>
+                      </td>
+                      </tr>
+                      <tr Align="center">
+                      <td Align="left">
+                      Password:<input type="password" required>
+                      <br>
+                      <br>
+                      </td>
+                      </tr>
+                      <br>
+                      <br>
+                      <tr Align="center">
+                      <td Align="left">
+                      <input type="button" name="Register" value="register"  onclick="login()">
+                      </td>
+                      </tr>
+<!--form closing-->
+              </form>
+<!--table closing-->
+         </table>
+     </body>
+</html>

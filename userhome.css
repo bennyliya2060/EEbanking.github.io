@@ -1,0 +1,63 @@
+/*--Active link--*/
+a:hover:not(.active) 
+  {
+    background-color: #111;
+  }
+/*--Active link--*/
+.active
+{
+   background-color: rgb(67, 67, 226);
+}
+/*--heading section--*/
+h1
+{
+    color:blue;
+}
+/*--nav bar--*/
+nav
+{
+    Background-color:black;
+    padding:10px;
+    font-size:large;
+    word-spacing:50px;
+    text-align: right;
+}
+/*--background image--*/
+img
+{
+    position: absolute;
+    z-index:-1;
+    color:black;
+}
+/*--paragraph--*/
+p
+{
+    background-image:url("c:\photos\money.jpg");
+    font-size:11px;
+    font-style: italic;
+    color: black;
+}
+/*--anger tag--*/
+a
+{
+    background-color:black;
+    text-decoration: none;
+    color: white;
+}
+@media (max-width:600px){
+    img{
+        width:100%;
+    }
+    .nav-area{
+        float:none;
+        margin-top:0;
+    }
+    .nav-area li a{
+        padding:5px;
+        font-size:center;
+    }
+    .nav-area {
+        text-align:center;
+ }
+}
+

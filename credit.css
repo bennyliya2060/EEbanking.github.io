@@ -1,0 +1,22 @@
+/*--heading--*/
+h1
+{
+    color:blue;
+    font-size:large;
+}
+@media (max-width:600px){
+    img{
+        width:100%;
+    }
+    .nav-area{
+        float:none;
+        margin-top:0;
+    }
+    .nav-area li a{
+        padding:5px;
+        font-size:center;
+    }
+    .nav-area {
+        text-align:center;
+ }
+}

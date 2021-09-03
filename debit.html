@@ -1,0 +1,78 @@
+<!--html open-->
+<html>
+    <!-- head section-->
+    <head>
+        <link rel="stylesheet" href="C:\EE banking\css\debit.css">
+        <title></title>
+            <!--bootstrap-->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--javascript-->
+        <script src="C:\EE banking\js\transaction1.js"></script>
+    </head>
+    <!--body section-->
+    <body>
+      <header>
+            <h1>EE BANKING</h1>
+      </header>      
+           <div class="container"></div>
+           <nav class="navbar navbar-expand-sm bg-dark navbar-dark"> 
+            <ul  class="navbar-nav">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="userhome.html">Home</a>
+                </li>
+              </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="userhome.html">Logout</a>
+                </li>
+              </ul>
+             </ul>
+            </nav>
+      <div class="container">
+            <div class="jumbotron">
+               <h2>Welcome User</h2>
+                     <div class="col"><br>
+                        <h3>WithDraw</h3>
+                        <!--table-->
+                        <table>
+                            <tr>
+                                <td>Accno</td>
+                                <td><input type="text" id="wacno"></td>
+                            </tr>
+                            <tr>
+                                <td>Pin</td>
+                                <td><input type="text" id="wpin"></td>
+                            </tr>
+          
+                            <tr>
+                                <td>Amount</td>
+                                <td><input type="text" id="wamt"></td>
+                            </tr>
+                            <tr>
+                              <div class="container">
+                                <td Align="center" colspan="2"><br><button type="button" class="btn btn-success" onclick="Bank.withdraw()">Withdraw</td></button>
+                              </div>
+                            </tr>
+                         <!--table closing-->
+                         </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--body closing-->
+    </body>
+<!--html closing-->
+</html>
+
+
+        
+    
+
+
+
+
+
+
+
+

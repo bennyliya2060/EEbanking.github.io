@@ -1,0 +1,77 @@
+/*--background image--*/
+body
+{
+    Background-image: url("C:\photos\money2.jpg");
+}
+/*--heading--*/
+h1
+{
+    color:blue;
+}
+/*--navbar--*/
+nav
+{
+    background-color:black;
+    color:white;
+    text-align: right;
+    word-spacing: 20px;
+    padding:10px;
+    font-size:large;
+}
+/*--nav links--*/
+a
+{
+    font-size:large;
+    text-align: left;
+    color:white;
+    text-decoration: none;
+}
+/*--background image--*/
+img
+{
+    background-image: url("C:\photos\money2.jpg");
+    z-index:-1;
+    position: absolute;
+    text-align: center;
+
+}
+/*--table--*/
+table
+{
+    background-position: center;
+}
+/*--table head--*/
+thead
+{
+    text-Align:center;
+    background-color:white;
+    font-size:x-large;
+}
+/*--button for registration--*/
+button
+{
+    background-color:rgb(98, 245, 30);
+    text-Align: center;
+}
+/*--buton for login--*/
+input[type=button]
+{
+    background-color: whitesmoke;
+    text-align:center;
+}
+@media (max-width:600px){
+    img{
+        width:100%;
+    }
+    .nav-area{
+        float:none;
+        margin-top:0;
+    }
+    .nav-area li a{
+        padding:5px;
+        font-size:center;
+    }
+    .nav-area {
+        text-align:center;
+ }
+}
